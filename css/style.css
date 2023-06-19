@@ -1,0 +1,85 @@
+/*PALETA DE COLORES 
+ #212A3E
+ #394867
+ #9BA4B5
+ #F1F6F9
+ #526D82
+*/
+/*FUENTE*/
+@import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+/*HTML*/
+html {
+  font-family: "Lato", sans-serif;
+}
+/*TITULOS*/
+h1{
+    text-align: center;
+    background-color: #394867;
+    color: #f1f6f9;
+}
+h2{
+    text-align: center;
+    background-color: #9BA4B5;
+    color: #f1f6f9;
+}
+h3{
+    text-align: center;
+    background-color: #9099aa;
+    color:#f1f6f9;
+}
+/*IMAGENES*/
+.img img{
+    width: 500px;
+    padding-top: 5px;
+    padding-left: 5px; 
+    padding-bottom: 5px;
+}
+/*HEADER*/
+header {
+    background-color: #212A3E;
+    margin-bottom: 0;
+    position: sticky;
+    top:0;
+  }
+  header img{
+    width: 100px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 50%;
+  }
+/*NAV*/
+.navbar {
+    background-color: #212A3E;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: black;
+  }
+/*FOOTER*/
+footer {
+    background-color: #212a3e;
+  }
+  footer p {
+    color: #f1f6f9;
+    text-align: center;
+  }
+  footer img {
+    width: 100px;
+    border-radius: 50%;
+    background-color: #212A3E;
+  }
+  
