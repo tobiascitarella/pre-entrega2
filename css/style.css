@@ -96,4 +96,11 @@ footer {
     border-radius: 50%;
     background-color: #212A3E;
   }
-  
+  @media only screen and (max-width:500px){
+    body{
+      font-size: 14px;
+    }
+    .img{
+      width: 100%;
+    }
+  }
