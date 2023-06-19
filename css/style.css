@@ -72,6 +72,17 @@ header {
   .nav-link:hover {
     color: black;
   }
+  /*MAIN*/
+  .text p{
+    text-align: center;
+    padding-left: 5px;
+  }
+  .zelda img{
+    width: 400px;
+    padding-top: 5px;
+    padding-left: 5px; 
+    padding-bottom: 5px;
+  }
 /*FOOTER*/
 footer {
     background-color: #212a3e;
