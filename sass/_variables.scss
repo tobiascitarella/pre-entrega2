@@ -1,0 +1,13 @@
+$color1:#212a3e;
+$color2:#9BA4B5;
+$color3:#F1F6F9;
+$color4:#394867;
+$color5:#526D82;
+$color6:#9099aa;
+$font:"Lato", sans-serif;
+@mixin imagenes($tamanio,$pt,$pl,$pb){
+    width: $tamanio;
+    padding-top: $pt;
+    padding-left: $pl;
+    padding-bottom: $pb;
+}

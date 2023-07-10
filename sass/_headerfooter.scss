@@ -1,0 +1,41 @@
+//header
+header{
+    background-color: $color1;
+    margin-bottom: 0;
+    position: sticky;
+    top:0;
+    img{
+        width: 100px;
+        padding-left: 5px;
+        padding-top: 5px;
+        border-radius: 50%;
+    }
+    //navegador
+    .navbar {
+        background-color: #212A3E;
+        .navbar-brand{
+            color: white;
+            font-weight: bold;
+        }
+        .nav-link{
+            color: white;
+            font-weight: bold;
+        }
+        .nav-link:hover{
+            color: black;
+        }
+      }
+}
+//footer
+footer{
+    background-color: $color1;
+    p{
+        color:white;
+        text-align: center;
+    }
+    img{
+        width: 100px;
+        border-radius: 50%;
+        border: $color1;
+    }
+}

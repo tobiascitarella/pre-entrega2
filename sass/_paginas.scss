@@ -1,0 +1,92 @@
+//titulos
+h1{
+    text-align: center;
+    background-color: $color1;
+    color: $color3;
+}
+h2{
+    text-align: center;
+    background-color: $color2;
+    color: $color3;
+}
+h3{
+    text-align: center;
+    background-color: $color6;
+    color: $color3;
+}
+//textos
+.text p{
+    text-align: center;
+    padding-left: 5px;
+}
+//imagenes
+.img{
+    img{
+        @include imagenes(500px,5px,5px,5px)
+    }
+}
+.yt{
+    img{
+        width: 100px;
+    }
+}
+.zelda{
+    img{
+        width: 300px;
+        padding-top: 5px;
+        padding-left: 5px; 
+        padding-bottom: 5px;
+    }
+}
+
+.animacion{
+    animation-name: arg;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    h2{
+        text-align: center;
+        background-color: $color2;
+        color: $color3;
+    }
+}
+@keyframes arg{
+    0%{
+       text-decoration: underline;
+       text-decoration-color: aqua;
+    }
+    50%{
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+    100%{
+       text-decoration: underline; 
+       text-decoration-color: aqua;
+    }
+}
+.animacion-2{
+    animation-name: esp;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    h2{
+        text-align: center;
+        background-color: $color2;
+        color: $color3;
+    }
+
+}
+@keyframes esp{
+    0%{
+       text-decoration: underline;
+       text-decoration-color: red;
+    }
+    50%{
+        text-decoration: underline;
+        text-decoration-color: yellow;
+    }
+    100%{
+       text-decoration: underline; 
+       text-decoration-color: red;
+    }
+}
